@@ -22,7 +22,7 @@ This contrast is important, as it suggests that food deserts, or areas that are 
 
 <img width="1031" height="644" alt="image" src="https://github.com/user-attachments/assets/137555e1-9810-44cc-ad54-286c9d66f7aa" />
 
-From the map, we can infer that a notable percentage of low-access census tracts are not also low-income. Large sections of the South and Midwest show ratios close to 0, (being blue) so there is a higher proportion of low acces that are not low income. While some regions, like the West, show low-income and low-access correlation. 
+From the map, we can infer that a notable percentage of low-access census tracts are not also low-income. Large sections of the South and Midwest show ratios close to 0, (being blue) so there is a higher proportion of low-access areas that are not low income. While some regions, like the West, show low-income and low-access correlation. 
 
 <img width="1036" height="586" alt="image" src="https://github.com/user-attachments/assets/2ee28710-8c9a-4100-9772-fac4d2ffb6d9" />
 
@@ -38,11 +38,10 @@ Our polynomial regression analysis of SNAP-participating households in low-acces
 
 <img width="1046" height="633" alt="image" src="https://github.com/user-attachments/assets/9aa67533-7c93-4d91-b22d-3d8748dd495e" />
 
-By normalizing SNAP-participating households in low-access areas by total housing units, we removed the bias caused by differences in county population. Even after this adjustment, the relationship between SNAP participation and LILA tracts remained extremely strong, with an R-squared of 0.9086 and a p-value under 0.0001. Number of housing units has little effect on number of LILA tracts within a county. This demonstrates that the correlation between number of SNAP households and number of LILA tracts in a county is not skewed by overall population. 
+By normalizing SNAP-participating households in low-access areas by total housing units, we removed the bias caused by differences in county population. Even after this adjustment, the relationship between SNAP participation and LILA tracts remained extremely strong, with an R-squared of 0.9086 and a p-value under 0.0001. The number of housing units has little effect on the number of LILA tracts within a county. This demonstrates that the correlation between the number of SNAP households and the number of LILA tracts in a county is not skewed by overall population. 
 
 ## Data Manipulation
 We didn’t modify, remove from, or add to our dataset in any way, even by way of reformatting or standardization. It is also worth noting that, to the best of our knowledge, this data doesn’t have any redundant, inaccurate, or low-quality data as well. Due to the scale and highly specific nature of the dataset, it is next to impossible for us to validate the accuracy of the data. However, due to the reputable source that compiled this dataset, we can assume that the data is largely accurate. 
 
 # Tableau Packaged Workbook
 The packaged workbook containing the visualizations is attached to this repository.
-
